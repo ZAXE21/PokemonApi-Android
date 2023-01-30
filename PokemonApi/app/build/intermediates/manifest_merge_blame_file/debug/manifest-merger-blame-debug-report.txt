@@ -18,74 +18,76 @@
 12-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:6:22-76
 13
 14    <application
-14-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:8:5-26:19
-15        android:allowBackup="true"
-15-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:9:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.8.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/48ab7ed5de5bca448a3e57d22b9c0b1d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:10:9-65
-18        android:debuggable="true"
-19        android:extractNativeLibs="false"
-20        android:fullBackupContent="@xml/backup_rules"
-20-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:11:9-54
-21        android:icon="@mipmap/ic_launcher"
-21-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:12:9-43
-22        android:label="@string/app_name"
-22-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:13:9-41
-23        android:supportsRtl="true"
-23-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:14:9-35
-24        android:testOnly="true"
-25        android:theme="@style/Theme.PokemonApi" >
-25-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:15:9-48
-26        <activity
-26-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:17:9-25:20
-27            android:name="com.example.pokemonapi.ui.view.MainActivity"
-27-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:18:13-49
-28            android:exported="true" >
-28-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:19:13-36
-29            <intent-filter>
-29-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:20:13-24:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:21:17-69
-30-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:21:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:23:17-77
-32-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:23:27-74
-33            </intent-filter>
-34        </activity>
-35
-36        <service
-36-->[androidx.room:room-runtime:2.5.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/0509dbfa226fa7c4640d2f865cf4fb7f/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
-37            android:name="androidx.room.MultiInstanceInvalidationService"
-37-->[androidx.room:room-runtime:2.5.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/0509dbfa226fa7c4640d2f865cf4fb7f/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
-38            android:directBootAware="true"
-38-->[androidx.room:room-runtime:2.5.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/0509dbfa226fa7c4640d2f865cf4fb7f/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
-39            android:exported="false" />
-39-->[androidx.room:room-runtime:2.5.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/0509dbfa226fa7c4640d2f865cf4fb7f/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
-40
-41        <provider
-41-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-43            android:authorities="com.example.pokemonapi.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-45            <meta-data
-45-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/bad6da397dfba5ec76894b175071632b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/bad6da397dfba5ec76894b175071632b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/bad6da397dfba5ec76894b175071632b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-51        </provider>
-52    </application>
-53
-54</manifest>
+14-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:8:5-27:19
+15        android:name="com.example.pokemonapi.PokemonApiApp"
+15-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:10:9-38
+16        android:allowBackup="true"
+16-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.8.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/48ab7ed5de5bca448a3e57d22b9c0b1d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+18        android:dataExtractionRules="@xml/data_extraction_rules"
+18-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:11:9-65
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:fullBackupContent="@xml/backup_rules"
+21-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:12:9-54
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:13:9-43
+23        android:label="@string/app_name"
+23-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:14:9-41
+24        android:supportsRtl="true"
+24-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:15:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.PokemonApi" >
+26-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:16:9-48
+27        <activity
+27-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:18:9-26:20
+28            android:name="com.example.pokemonapi.ui.view.MainActivity"
+28-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:19:13-49
+29            android:exported="true" >
+29-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:20:13-36
+30            <intent-filter>
+30-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:22:17-69
+31-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:24:17-77
+33-->/Users/alejandrocasadobenito/PokemonApi-Android/PokemonApi/app/src/main/AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <service
+37-->[androidx.room:room-runtime:2.5.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/0509dbfa226fa7c4640d2f865cf4fb7f/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+38            android:name="androidx.room.MultiInstanceInvalidationService"
+38-->[androidx.room:room-runtime:2.5.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/0509dbfa226fa7c4640d2f865cf4fb7f/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+39            android:directBootAware="true"
+39-->[androidx.room:room-runtime:2.5.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/0509dbfa226fa7c4640d2f865cf4fb7f/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+40            android:exported="false" />
+40-->[androidx.room:room-runtime:2.5.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/0509dbfa226fa7c4640d2f865cf4fb7f/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+44            android:authorities="com.example.pokemonapi.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/e0f9b0443b13b879369b841b7aa63066/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/bad6da397dfba5ec76894b175071632b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/bad6da397dfba5ec76894b175071632b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/alejandrocasadobenito/.gradle/caches/transforms-3/bad6da397dfba5ec76894b175071632b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>

@@ -5,21 +5,13 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.Toast
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.pokemonapi.R
-import com.example.pokemonapi.data.model.InfoPokemon
-import com.example.pokemonapi.data.model.PokemonData
-import com.example.pokemonapi.data.network.APIService
 import com.example.pokemonapi.databinding.ActivityMainBinding
 import com.example.pokemonapi.ui.viewmodel.PokemonViewModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-import java.util.logging.Logger
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

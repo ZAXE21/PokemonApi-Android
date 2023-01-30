@@ -1,7 +1,0 @@
-package com.example.pokemonapi.test
-
-import com.google.gson.annotations.SerializedName
-
-data class GenerationV(
-    @SerializedName("black-white")val black_white: BlackWhite
-)
