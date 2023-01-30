@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.pokemonapi.app-mergeDebugResources-24:/values-land/values-land.xml",
+            "outputFile": "com.example.pokemonapi.app-mergeDebugResources-36:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/alejandrocasadobenito/.gradle/caches/transforms-3/fe1b74a16ab1197c5be7820913326574/transformed/appcompat-1.4.1/res/values-land/values-land.xml",
+                    "source": "/Users/alejandrocasadobenito/.gradle/caches/transforms-3/13379f3fdc721fbd1e42686798ccdcff/transformed/appcompat-1.4.1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/alejandrocasadobenito/.gradle/caches/transforms-3/b44fd523eac828a6319d85b16b998f7a/transformed/material-1.5.0/res/values-land/values-land.xml",
+                    "source": "/Users/alejandrocasadobenito/.gradle/caches/transforms-3/0baebb9096ca16f9b319421343d02f3c/transformed/material-1.5.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

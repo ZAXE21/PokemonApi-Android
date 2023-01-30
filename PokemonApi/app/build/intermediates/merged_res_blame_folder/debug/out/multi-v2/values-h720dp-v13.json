@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.pokemonapi.app-mergeDebugResources-24:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.pokemonapi.app-mergeDebugResources-36:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/alejandrocasadobenito/.gradle/caches/transforms-3/fe1b74a16ab1197c5be7820913326574/transformed/appcompat-1.4.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/Users/alejandrocasadobenito/.gradle/caches/transforms-3/13379f3fdc721fbd1e42686798ccdcff/transformed/appcompat-1.4.1/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

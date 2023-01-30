@@ -24,7 +24,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.PokemonApi" >
         <activity
-            android:name="com.example.pokemonapi.MainActivity"
+            android:name="com.example.pokemonapi.ui.view.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,6 +32,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

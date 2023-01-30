@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.pokemonapi.app-mergeDebugResources-24:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.example.pokemonapi.app-mergeDebugResources-36:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/alejandrocasadobenito/.gradle/caches/transforms-3/b44fd523eac828a6319d85b16b998f7a/transformed/material-1.5.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "source": "/Users/alejandrocasadobenito/.gradle/caches/transforms-3/0baebb9096ca16f9b319421343d02f3c/transformed/material-1.5.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
