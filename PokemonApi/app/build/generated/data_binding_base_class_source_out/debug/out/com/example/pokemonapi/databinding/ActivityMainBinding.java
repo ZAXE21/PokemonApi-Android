@@ -8,6 +8,7 @@ import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.pokemonapi.R;
@@ -25,11 +26,15 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout root;
 
+  @NonNull
+  public final RecyclerView rvPokemon;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ProgressBar progressBar,
-      @NonNull ConstraintLayout root) {
+      @NonNull ConstraintLayout root, @NonNull RecyclerView rvPokemon) {
     this.rootView = rootView;
     this.progressBar = progressBar;
     this.root = root;
+    this.rvPokemon = rvPokemon;
   }
 
   @Override
@@ -67,7 +72,13 @@ public final class ActivityMainBinding implements ViewBinding {
 
       ConstraintLayout root = (ConstraintLayout) rootView;
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, progressBar, root);
+      id = R.id.rvPokemon;
+      RecyclerView rvPokemon = ViewBindings.findChildViewById(rootView, id);
+      if (rvPokemon == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, progressBar, root, rvPokemon);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -9,4 +9,7 @@ class PokemonRepository @Inject constructor(private val api: PokemonService) {
         return api.getAllPokemon()
     }
 
+    suspend fun getPokedex(): List<PokemonData> {
+        return api.getAllPokemon()
+    }
 }

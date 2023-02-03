@@ -1206,6 +1206,7 @@ int color accent_material_dark 0x7f050019
 int color accent_material_light 0x7f05001a
 int color androidx_core_ripple_material_light 0x7f05001b
 int color androidx_core_secondary_text_default_material_light 0x7f05001c
+int color background 0x7f050253
 int color background_floating_material_dark 0x7f05001d
 int color background_floating_material_light 0x7f05001e
 int color background_material_dark 0x7f05001f
@@ -2501,6 +2502,8 @@ int drawable notification_template_icon_bg 0x7f070095
 int drawable notification_template_icon_low_bg 0x7f070096
 int drawable notification_tile_bg 0x7f070097
 int drawable notify_panel_notification_icon_bg 0x7f070098
+int drawable placeholer 0x7f07009e
+int drawable test 0x7f07009d
 int drawable test_custom_background 0x7f070099
 int drawable test_level_drawable 0x7f07009a
 int drawable tooltip_frame_dark 0x7f07009b
@@ -2720,12 +2723,15 @@ int id ifRoom 0x7f0800d3
 int id ignore 0x7f0800d4
 int id ignoreRequest 0x7f0800d5
 int id image 0x7f0800d6
+int id imagePokemon 0x7f0801dc
+int id imagePokemonShiny 0x7f0801dd
 int id immediateStop 0x7f0800d7
 int id included 0x7f0800d8
 int id info 0x7f0800d9
 int id invisible 0x7f0800da
 int id inward 0x7f0800db
 int id italic 0x7f0800dc
+int id itemPokemon 0x7f0801de
 int id item_touch_helper_previous_elevation 0x7f0800dd
 int id jumpToEnd 0x7f0800de
 int id jumpToStart 0x7f0800df
@@ -2795,6 +2801,7 @@ int id mtrl_picker_text_input_range_start 0x7f08011e
 int id mtrl_picker_title_text 0x7f08011f
 int id mtrl_view_tag_bottom_padding 0x7f080120
 int id multiply 0x7f080121
+int id namePokemon 0x7f0801df
 int id navigation_bar_item_active_indicator_view 0x7f080122
 int id navigation_bar_item_icon_container 0x7f080123
 int id navigation_bar_item_icon_view 0x7f080124
@@ -2847,6 +2854,7 @@ int id right_side 0x7f080152
 int id root 0x7f080153
 int id rounded 0x7f080154
 int id row_index_key 0x7f080155
+int id rvPokemon 0x7f0801e0
 int id save_non_transition_alpha 0x7f080156
 int id save_overlay_view 0x7f080157
 int id sawtooth 0x7f080158
@@ -3083,6 +3091,7 @@ int layout design_navigation_menu 0x7f0b0029
 int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
+int layout item_pokemon 0x7f0b0074
 int layout m3_alert_dialog 0x7f0b002d
 int layout m3_alert_dialog_actions 0x7f0b002e
 int layout m3_alert_dialog_title 0x7f0b002f
