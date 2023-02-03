@@ -2,6 +2,7 @@ package com.example.pokemonapi.data.network
 
 import com.example.pokemonapi.data.model.PokemonData
 import com.example.pokemonapi.data.model.mapperToPokemonData
+import com.example.pokemonapi.data.model.mapperToPokemonData2
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
@@ -16,7 +17,7 @@ class PokemonService @Inject constructor(private val api: APIService) {
                 if(response.isSuccessful){
                     val pokemonResponse = response.body()
                     val list = pokemonResponse?.pokemons ?: emptyList()
-                    result = mapperToPokemonData(list)
+                    result = mapperToPokemonData2(list)
                 }
             }catch (e: java.lang.Exception){
                 e.printStackTrace()
@@ -25,15 +26,15 @@ class PokemonService @Inject constructor(private val api: APIService) {
         }
     }
 
-    suspend fun getPokedex(id: Int): List<PokemonData>{
+    suspend fun getPokedex(region: Int): List<PokemonData>{
         return withContext(Dispatchers.IO){
             var result: List<PokemonData> = emptyList()
             try {
-                val response = api.getPokedex("pokedex/$id/")
+                val response = api.getPokedex("pokedex/$region/")
                 if(response.isSuccessful){
-                   // val pokemonResponse = response.body()
-                   // val list = pokemonResponse?.pokemons ?: emptyList()
-                  //  result = mapperToPokemonData(list)
+                    val pokedexResponse = response.body()
+                    val list = pokedexResponse?.pokemon_entries?: emptyList()
+                    result = mapperToPokemonData(list)
                 }
             }catch (e: java.lang.Exception){
                 e.printStackTrace()

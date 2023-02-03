@@ -1,6 +1,7 @@
 package com.example.pokemonapi;
 
 import com.example.pokemonapi.ui.view.MainActivity_GeneratedInjector;
+import com.example.pokemonapi.ui.view.PokedexView_GeneratedInjector;
 import com.example.pokemonapi.ui.viewmodel.PokemonViewModel_HiltModules;
 import com.example.pokemonapi.utils.di.NetworkModule;
 import dagger.Binds;
@@ -170,6 +171,7 @@ public final class PokemonApiApp_HiltComponents {
   )
   @ActivityScoped
   public abstract static class ActivityC implements MainActivity_GeneratedInjector,
+      PokedexView_GeneratedInjector,
       ActivityComponent,
       DefaultViewModelFactories.ActivityEntryPoint,
       HiltWrapper_HiltViewModelFactory_ActivityCreatorEntryPoint,

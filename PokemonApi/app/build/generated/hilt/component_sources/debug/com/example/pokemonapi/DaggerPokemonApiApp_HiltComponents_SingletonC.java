@@ -10,8 +10,10 @@ import androidx.lifecycle.ViewModel;
 import com.example.pokemonapi.data.PokemonRepository;
 import com.example.pokemonapi.data.network.APIService;
 import com.example.pokemonapi.data.network.PokemonService;
+import com.example.pokemonapi.domain.GetPokedexUseCase;
 import com.example.pokemonapi.domain.GetPokemonUseCase;
 import com.example.pokemonapi.ui.view.MainActivity;
+import com.example.pokemonapi.ui.view.PokedexView;
 import com.example.pokemonapi.ui.viewmodel.PokemonViewModel;
 import com.example.pokemonapi.ui.viewmodel.PokemonViewModel_HiltModules_KeyModule_ProvideFactory;
 import com.example.pokemonapi.utils.di.NetworkModule;
@@ -373,6 +375,10 @@ public final class DaggerPokemonApiApp_HiltComponents_SingletonC {
     }
 
     @Override
+    public void injectPokedexView(PokedexView pokedexView) {
+    }
+
+    @Override
     public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
       return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(getViewModelKeys(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
     }
@@ -429,6 +435,10 @@ public final class DaggerPokemonApiApp_HiltComponents_SingletonC {
       return new GetPokemonUseCase(pokemonRepository());
     }
 
+    private GetPokedexUseCase getPokedexUseCase() {
+      return new GetPokedexUseCase(pokemonRepository());
+    }
+
     @SuppressWarnings("unchecked")
     private void initialize(final SavedStateHandle savedStateHandleParam,
         final ViewModelLifecycle viewModelLifecycleParam) {
@@ -462,7 +472,7 @@ public final class DaggerPokemonApiApp_HiltComponents_SingletonC {
       public T get() {
         switch (id) {
           case 0: // com.example.pokemonapi.ui.viewmodel.PokemonViewModel 
-          return (T) new PokemonViewModel(viewModelCImpl.getPokemonUseCase());
+          return (T) new PokemonViewModel(viewModelCImpl.getPokemonUseCase(), viewModelCImpl.getPokedexUseCase());
 
           default: throw new AssertionError(id);
         }

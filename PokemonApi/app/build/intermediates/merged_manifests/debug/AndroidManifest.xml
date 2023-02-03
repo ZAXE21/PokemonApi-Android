@@ -25,6 +25,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.PokemonApi" >
         <activity
+            android:name="com.example.pokemonapi.ui.view.PokedexView"
+            android:exported="false" />
+        <activity
             android:name="com.example.pokemonapi.ui.view.MainActivity"
             android:exported="true" >
             <intent-filter>

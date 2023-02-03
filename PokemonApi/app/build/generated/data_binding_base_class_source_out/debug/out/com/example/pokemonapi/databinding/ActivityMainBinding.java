@@ -4,11 +4,13 @@ package com.example.pokemonapi.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ProgressBar;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.pokemonapi.R;
@@ -21,20 +23,55 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ProgressBar progressBar;
+  public final ImageButton btnHoenn;
 
   @NonNull
-  public final ConstraintLayout root;
+  public final ImageButton btnJohto;
 
   @NonNull
-  public final RecyclerView rvPokemon;
+  public final ImageButton btnKanto;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ProgressBar progressBar,
-      @NonNull ConstraintLayout root, @NonNull RecyclerView rvPokemon) {
+  @NonNull
+  public final ImageButton btnSinnoh;
+
+  @NonNull
+  public final LinearLayout layoutJohto;
+
+  @NonNull
+  public final LinearLayout layoutKanto;
+
+  @NonNull
+  public final TextView txtHoenn;
+
+  @NonNull
+  public final TextView txtJohto;
+
+  @NonNull
+  public final TextView txtKanto;
+
+  @NonNull
+  public final ImageView txtPokemon;
+
+  @NonNull
+  public final TextView txtSinnoh;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton btnHoenn,
+      @NonNull ImageButton btnJohto, @NonNull ImageButton btnKanto, @NonNull ImageButton btnSinnoh,
+      @NonNull LinearLayout layoutJohto, @NonNull LinearLayout layoutKanto,
+      @NonNull TextView txtHoenn, @NonNull TextView txtJohto, @NonNull TextView txtKanto,
+      @NonNull ImageView txtPokemon, @NonNull TextView txtSinnoh) {
     this.rootView = rootView;
-    this.progressBar = progressBar;
-    this.root = root;
-    this.rvPokemon = rvPokemon;
+    this.btnHoenn = btnHoenn;
+    this.btnJohto = btnJohto;
+    this.btnKanto = btnKanto;
+    this.btnSinnoh = btnSinnoh;
+    this.layoutJohto = layoutJohto;
+    this.layoutKanto = layoutKanto;
+    this.txtHoenn = txtHoenn;
+    this.txtJohto = txtJohto;
+    this.txtKanto = txtKanto;
+    this.txtPokemon = txtPokemon;
+    this.txtSinnoh = txtSinnoh;
   }
 
   @Override
@@ -64,21 +101,74 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.progressBar;
-      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
-      if (progressBar == null) {
+      id = R.id.btnHoenn;
+      ImageButton btnHoenn = ViewBindings.findChildViewById(rootView, id);
+      if (btnHoenn == null) {
         break missingId;
       }
 
-      ConstraintLayout root = (ConstraintLayout) rootView;
-
-      id = R.id.rvPokemon;
-      RecyclerView rvPokemon = ViewBindings.findChildViewById(rootView, id);
-      if (rvPokemon == null) {
+      id = R.id.btnJohto;
+      ImageButton btnJohto = ViewBindings.findChildViewById(rootView, id);
+      if (btnJohto == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, progressBar, root, rvPokemon);
+      id = R.id.btnKanto;
+      ImageButton btnKanto = ViewBindings.findChildViewById(rootView, id);
+      if (btnKanto == null) {
+        break missingId;
+      }
+
+      id = R.id.btnSinnoh;
+      ImageButton btnSinnoh = ViewBindings.findChildViewById(rootView, id);
+      if (btnSinnoh == null) {
+        break missingId;
+      }
+
+      id = R.id.layoutJohto;
+      LinearLayout layoutJohto = ViewBindings.findChildViewById(rootView, id);
+      if (layoutJohto == null) {
+        break missingId;
+      }
+
+      id = R.id.layoutKanto;
+      LinearLayout layoutKanto = ViewBindings.findChildViewById(rootView, id);
+      if (layoutKanto == null) {
+        break missingId;
+      }
+
+      id = R.id.txtHoenn;
+      TextView txtHoenn = ViewBindings.findChildViewById(rootView, id);
+      if (txtHoenn == null) {
+        break missingId;
+      }
+
+      id = R.id.txtJohto;
+      TextView txtJohto = ViewBindings.findChildViewById(rootView, id);
+      if (txtJohto == null) {
+        break missingId;
+      }
+
+      id = R.id.txtKanto;
+      TextView txtKanto = ViewBindings.findChildViewById(rootView, id);
+      if (txtKanto == null) {
+        break missingId;
+      }
+
+      id = R.id.txtPokemon;
+      ImageView txtPokemon = ViewBindings.findChildViewById(rootView, id);
+      if (txtPokemon == null) {
+        break missingId;
+      }
+
+      id = R.id.txtSinnoh;
+      TextView txtSinnoh = ViewBindings.findChildViewById(rootView, id);
+      if (txtSinnoh == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnHoenn, btnJohto, btnKanto,
+          btnSinnoh, layoutJohto, layoutKanto, txtHoenn, txtJohto, txtKanto, txtPokemon, txtSinnoh);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/xml_backup_rules.xml.flat",
         "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/xml/backup_rules.xml"
     },
@@ -16,10 +12,6 @@
         "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/drawable_placeholer.png.flat",
-        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/drawable/placeholer.png"
-    },
-    {
         "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/drawable-v24/ic_launcher_foreground.xml"
     },
@@ -28,16 +20,8 @@
         "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.pokemonapi.app-merged_res-38:/layout_item_pokemon.xml.flat",
-        "source": "com.example.pokemonapi.app-main-40:/layout/item_pokemon.xml"
-    },
-    {
-        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/layout_aaaaa.xml.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/layout/aaaaa.xml"
     },
     {
         "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/layout_item_pokemon.xml.flat",
@@ -46,6 +30,54 @@
     {
         "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/drawable_button.xml.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/drawable/button.xml"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/drawable_pokemon.png.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/drawable/pokemon.png"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/drawable_placeholer.png.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/drawable/placeholer.png"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.pokemonapi.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "com.example.pokemonapi.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/layout_activity_pokedex_view.xml.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/layout/activity_pokedex_view.xml"
+    },
+    {
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
         "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/xml_data_extraction_rules.xml.flat",
@@ -60,31 +92,15 @@
         "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/drawable/test.png"
     },
     {
-        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alejandrocasadobenito/.gradle/daemon/7.5/com.example.pokemonapi.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.webp"
     }
 ]

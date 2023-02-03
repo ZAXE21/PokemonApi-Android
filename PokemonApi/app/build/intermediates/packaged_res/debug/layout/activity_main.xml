@@ -1,33 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/root"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.view.MainActivity"
-    android:background="@color/background">
+    android:layout_height="match_parent">
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        android:indeterminateTint="@color/white"
-        android:indeterminate="true"
+    <ImageView
+        android:id="@+id/txtPokemon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/pokemon"/>
+
+    <LinearLayout
+        android:id="@+id/layoutKanto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/layoutJohto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPokemon"
+        app:layout_constraintVertical_bias="0.286">
+
+        <ImageButton
+            android:id="@+id/btnKanto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button"
+            android:src="@drawable/placeholer" />
+
+        <TextView
+            android:id="@+id/txtKanto"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_horizontal"
+            android:text="@string/kanto"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnHoenn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button"
+            android:src="@drawable/placeholer" />
+
+        <TextView
+            android:id="@+id/txtHoenn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/hoenn"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutJohto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:visibility="visible"/>
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvPokemon"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:listitem="@layout/item_pokemon"
-        android:visibility="gone"/>
+        app:layout_constraintStart_toEndOf="@id/layoutKanto"
+        app:layout_constraintTop_toBottomOf="@+id/txtPokemon"
+        app:layout_constraintVertical_bias="0.286">
+
+        <ImageButton
+            android:id="@+id/btnJohto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button"
+            android:src="@drawable/placeholer" />
+
+        <TextView
+            android:id="@+id/txtJohto"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_horizontal"
+            android:text="@string/johto"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnSinnoh"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button"
+            android:src="@drawable/placeholer" />
+
+        <TextView
+            android:id="@+id/txtSinnoh"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/sinnoh"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

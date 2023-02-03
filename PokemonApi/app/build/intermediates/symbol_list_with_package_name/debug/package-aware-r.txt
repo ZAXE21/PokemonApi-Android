@@ -1742,6 +1742,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color primary
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1774,6 +1775,7 @@ color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color windowBackground
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2446,6 +2448,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2504,6 +2507,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable placeholer
+drawable pokemon
 drawable test
 drawable test_custom_background
 drawable test_level_drawable
@@ -2607,6 +2611,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnHoenn
+id btnJohto
+id btnKanto
+id btnSinnoh
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2738,6 +2746,8 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layoutJohto
+id layoutKanto
 id left
 id leftToRight
 id legacy
@@ -2967,6 +2977,11 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtHoenn
+id txtJohto
+id txtKanto
+id txtPokemon
+id txtSinnoh
 id unchecked
 id uniform
 id unlabeled
@@ -3076,6 +3091,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_pokedex_view
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3209,8 +3225,11 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
+string hoenn
 string icon_content_description
 string item_view_role_description
+string johto
+string kanto
 string m3_ref_typeface_brand_display_regular
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3298,6 +3317,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
+string sinnoh
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

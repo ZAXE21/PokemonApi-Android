@@ -19,6 +19,7 @@ import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_andro
 import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_components_SingletonComponent;
 import hilt_aggregated_deps._com_example_pokemonapi_PokemonApiApp_GeneratedInjector;
 import hilt_aggregated_deps._com_example_pokemonapi_ui_view_MainActivity_GeneratedInjector;
+import hilt_aggregated_deps._com_example_pokemonapi_ui_view_PokedexView_GeneratedInjector;
 import hilt_aggregated_deps._com_example_pokemonapi_ui_viewmodel_PokemonViewModel_HiltModules_BindsModule;
 import hilt_aggregated_deps._com_example_pokemonapi_ui_viewmodel_PokemonViewModel_HiltModules_KeyModule;
 import hilt_aggregated_deps._com_example_pokemonapi_utils_di_NetworkModule;
@@ -63,6 +64,7 @@ import hilt_aggregated_deps._dagger_hilt_android_internal_modules_HiltWrapper_Ac
     aggregatedDeps = {
         _com_example_pokemonapi_PokemonApiApp_GeneratedInjector.class,
         _com_example_pokemonapi_ui_view_MainActivity_GeneratedInjector.class,
+        _com_example_pokemonapi_ui_view_PokedexView_GeneratedInjector.class,
         _com_example_pokemonapi_ui_viewmodel_PokemonViewModel_HiltModules_BindsModule.class,
         _com_example_pokemonapi_ui_viewmodel_PokemonViewModel_HiltModules_KeyModule.class,
         _com_example_pokemonapi_utils_di_NetworkModule.class,
